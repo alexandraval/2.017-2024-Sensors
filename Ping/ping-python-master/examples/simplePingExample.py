@@ -13,7 +13,7 @@ from builtins import input
 
 # Make a new Ping
 myPing = Ping1D()
-myPing.connect_serial("/dev/ttyUSB0", 115200)
+myPing.connect_serial("/dev/tty.usbserial-DP05Z38N", 115200)
 
 
 if myPing.initialize() is False:
